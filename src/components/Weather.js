@@ -1,11 +1,32 @@
+import classes from './Weather.module.css'
+
 const Weather = ({ apiData }) => {
   return (
-    <div>
-      <section>
+    <div className={classes.container}>
+      {apiData.map((city) => (
+        <section className={classes.card} key={city.id}>
+          <div className={classes.image}>
+            <img
+              src={`http://openweathermap.org/img/wn/${city.icon}@2x.png`}
+              alt={city.name}
+            />
+          </div>
+          <h1>{city.name}</h1>
+          <div>
+            <h1>Temperature is : {city.temp}</h1>
+          </div>
+          <h1>
+            <span>Weather is : {city.weather}</span>
+            <span>Wind speed is : {city.wind} ms</span>
+          </h1>
+          {/* <h2>Wind speed: {city.windSpeed} m/s</h2> */}
+        </section>
+      ))}
+      {/* <section>
         <div>
-          <img src={apiData.icon} alt={apiData.city} />
+          <img src={apiData.icon} alt={apiData.name} />
         </div>
-        <h1>{apiData.city}</h1>
+        <h1>{apiData.name}</h1>
         <div>
           <h1>{apiData.main.temp}</h1>
           <h2>
@@ -19,7 +40,7 @@ const Weather = ({ apiData }) => {
           <span> {apiData.weather.description}</span>
         </h1>
         <h2>Wind speed: {apiData.wind.speed} m/s</h2>
-      </section>
+      </section> */}
     </div>
   );
 };
