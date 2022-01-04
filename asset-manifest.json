@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dmytro-Lysenko.github.io/weather-api-app/static/css/main.9b69d954.chunk.css",
+    "main.js": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/main.be6da904.chunk.js",
+    "main.js.map": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/main.be6da904.chunk.js.map",
+    "runtime-main.js": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/runtime-main.c3ecdfe9.js",
+    "runtime-main.js.map": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/runtime-main.c3ecdfe9.js.map",
+    "static/js/2.866ab52b.chunk.js": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/2.866ab52b.chunk.js",
+    "static/js/2.866ab52b.chunk.js.map": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/2.866ab52b.chunk.js.map",
+    "index.html": "/Dmytro-Lysenko.github.io/weather-api-app/index.html",
+    "static/css/main.9b69d954.chunk.css.map": "/Dmytro-Lysenko.github.io/weather-api-app/static/css/main.9b69d954.chunk.css.map",
+    "static/js/2.866ab52b.chunk.js.LICENSE.txt": "/Dmytro-Lysenko.github.io/weather-api-app/static/js/2.866ab52b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3ecdfe9.js",
+    "static/js/2.866ab52b.chunk.js",
+    "static/css/main.9b69d954.chunk.css",
+    "static/js/main.be6da904.chunk.js"
+  ]
+}
