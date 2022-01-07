@@ -1,4 +1,4 @@
-import classes from './Weather.module.css'
+import classes from "./Weather.module.css";
 
 const Weather = ({ apiData }) => {
   return (
@@ -19,28 +19,8 @@ const Weather = ({ apiData }) => {
             <span>Weather is : {city.weather}</span>
             <span>Wind speed is : {city.wind} ms</span>
           </h1>
-          {/* <h2>Wind speed: {city.windSpeed} m/s</h2> */}
         </section>
       ))}
-      {/* <section>
-        <div>
-          <img src={apiData.icon} alt={apiData.name} />
-        </div>
-        <h1>{apiData.name}</h1>
-        <div>
-          <h1>{apiData.main.temp}</h1>
-          <h2>
-            <span>Temp min: {apiData.main.temp_min}</span>
-            <span>Temp max: {apiData.main.temp_max}</span>
-            <span>Feels like: {apiData.main.feels_like}</span>
-          </h2>
-        </div>
-        <h1>
-          <span>Weather is: {apiData.weather.main} description: </span>
-          <span> {apiData.weather.description}</span>
-        </h1>
-        <h2>Wind speed: {apiData.wind.speed} m/s</h2>
-      </section> */}
     </div>
   );
 };
